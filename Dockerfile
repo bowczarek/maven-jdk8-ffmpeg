@@ -1,7 +1,7 @@
 FROM jrottenberg/ffmpeg:3.4-alpine
 
 # install tools
-RUN apk add --no-cache curl tar bash jq
+RUN apk add --no-cache curl tar bash jq git
 
 # install Oracle jdk 8
 RUN apk --update add ca-certificates \
